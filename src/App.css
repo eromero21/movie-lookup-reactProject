@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+}
+
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+.search-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.search-bar input {
+    background: #1e1e1e;
+    border: 1px solid black;
+    padding: 0.5rem;
+    flex: 1;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+}
+
+.search-bar button {
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    background-color: #2a72ff;
+    color: white;
+}
+
+.search-bar button:hover {
+    background-color: #005fcc;
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.movie-card {
+    background: #1e1e1e;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.15s ease;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
