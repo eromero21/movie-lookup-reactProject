@@ -9,7 +9,6 @@ function MovieCard({movie}) {
             <h3>{movie.Title}</h3>
             <p>{movie.Year}</p>
             <p>{movie.Type}</p>
-            <p>IMDB Rating: {movie.imdbRating}</p>
         </div>
     );
 }

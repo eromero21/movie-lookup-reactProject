@@ -23,7 +23,7 @@ function App() {
             );
 
             const data = await response.json();
-            console.log(data);
+
             if (data.Response === "False") {
                 setStatus("error");
                 setError(data.Error || "No results found");

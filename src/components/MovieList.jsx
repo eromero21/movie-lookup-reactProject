@@ -1,7 +1,7 @@
 import MovieCard from './MovieCard.jsx';
 
 function MovieList({movies}) {
-    console.log("movies in MovieList:", movies);
+
     if (!movies || movies.length === 0) {
         return <p>No movies found.</p>;
     }
